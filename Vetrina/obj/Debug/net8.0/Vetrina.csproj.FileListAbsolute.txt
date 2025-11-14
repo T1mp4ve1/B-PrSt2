@@ -32,3 +32,4 @@ C:\Users\Pavel\Desktop\Corsi\Back\PrSt\B-PrSt2\Vetrina\obj\Debug\net8.0\refint\V
 C:\Users\Pavel\Desktop\Corsi\Back\PrSt\B-PrSt2\Vetrina\obj\Debug\net8.0\Vetrina.pdb
 C:\Users\Pavel\Desktop\Corsi\Back\PrSt\B-PrSt2\Vetrina\obj\Debug\net8.0\Vetrina.genruntimeconfig.cache
 C:\Users\Pavel\Desktop\Corsi\Back\PrSt\B-PrSt2\Vetrina\obj\Debug\net8.0\ref\Vetrina.dll
+C:\Users\Pavel\Desktop\Corsi\Back\PrSt\B-PrSt2\Vetrina\bin\Debug\net8.0\Products.json

@@ -1,5 +1,24 @@
-﻿@{
+﻿@model Vetrina.Models.ProductType
+@{
     ViewData["Title"] = "BackOffice";
 }
 
-<h2>Si</h2>
+<form asp-action="AddProduct" method="post">
+    <div class="mb-3">
+        <label class="form-label">Nome prodotto</label>
+        <input asp-for="NameProduct" class="form-control" required>
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Prezzo</label>
+        <input asp-for="PriceProduct" class="form-control" required>
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Immagine preview</label>
+        <input asp-for="PreviewImage" class="form-control" required>
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Immagini secondari</label>
+        <input asp-for="SecondaryImage" class="form-control" required>
+    </div>
+    <button type="submit" class="btn btn-warning">Submit</button>
+</form>

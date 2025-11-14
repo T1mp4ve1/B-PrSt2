@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Vetrina")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e6dd115b67b75b78bf19abf64bad9c15b79c0e13")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+833cf823391b27e828b547666eab546ad2592a70")]
 [assembly: System.Reflection.AssemblyProductAttribute("Vetrina")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Vetrina")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
