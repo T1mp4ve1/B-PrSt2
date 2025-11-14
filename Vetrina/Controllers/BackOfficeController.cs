@@ -13,13 +13,9 @@ namespace Vetrina.Controllers
         [HttpPost]
         public IActionResult AddProduct(ProductType product)
         {
-            //if (ModelState.IsValid)
-            //{
             DataVetrina.Products.Add(product);
             DataVetrina.SaveProduct();
             return RedirectToAction("Index");
-            //}
-            //return View("Index", product);
         }
     }
 }

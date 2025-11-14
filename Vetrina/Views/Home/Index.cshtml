@@ -21,7 +21,11 @@
                             <p class="card-text">@p.PriceProduct €</p>
                         </div>
                         
-                        <a href="#" class="btn btn-sm btn-warning">Dettagli</a>
+                        <a
+                           asp-controller="Details"
+                           asp-action="ShowDetails"
+                           asp-route-id="@p.Id"
+                            class="btn btn-sm btn-warning">Dettagli</a>
                     </div>
                 </div>
             </div>

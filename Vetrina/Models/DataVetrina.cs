@@ -7,12 +7,14 @@ namespace Vetrina.Models
         private static string filePath = "Products.json";
         public static List<ProductType> Products = LoadProducts();
 
+        //SAVE
         public static void SaveProduct()
         {
             var json = JsonSerializer.Serialize(Products);
             File.WriteAllText(filePath, json);
         }
 
+        //LOAD
         private static List<ProductType> LoadProducts()
         {
             if (!File.Exists(filePath)) return new List<ProductType>();
