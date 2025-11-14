@@ -12,6 +12,10 @@ namespace Vetrina.Models
         [Required]
         public string? PreviewImage { get; set; }
         [Required]
-        public string? SecondaryImage { get; set; }
+        public string? Description { get; set; }
+        [Required]
+        public string? SecondaryImage1 { get; set; }
+        [Required]
+        public string? SecondaryImage2 { get; set; }
     }
 }

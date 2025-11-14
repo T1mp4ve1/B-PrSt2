@@ -13,12 +13,20 @@
         <input asp-for="PriceProduct" class="form-control" required>
     </div>
     <div class="mb-3">
+        <label class="form-label">Descrizione</label>
+        <input asp-for="Description" class="form-control" required>
+    </div>
+    <div class="mb-3">
         <label class="form-label">Immagine preview</label>
         <input asp-for="PreviewImage" class="form-control" required>
     </div>
     <div class="mb-3">
-        <label class="form-label">Immagini secondari</label>
-        <input asp-for="SecondaryImage" class="form-control" required>
+        <label class="form-label">Immagine secondaria 1</label>
+        <input asp-for="SecondaryImage1" class="form-control" required>
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Immagine secondaria 2</label>
+        <input asp-for="SecondaryImage2" class="form-control" required>
     </div>
     <button type="submit" class="btn btn-warning">Submit</button>
 </form>

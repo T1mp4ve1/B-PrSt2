@@ -6,19 +6,35 @@
 <h2>Dettagli prodotto</h2>
 
 <div class="container">
-    <div class="row">
-        <div class="col col-6">
-            <div class="card p-2 d-flex" style="height: 100%; height: 600px;">
-                <img class="img-fluid"
-                     src=@Model.PreviewImage
-                     alt="img"
-                     style="max-height: 500px; object-fit:cover;" /> 
+    <div class="row w-100">
+        <div class="col">
+            <div class="card p-2">
+                <div>
+                    <img class="img-fluid"
+                         src=@Model.PreviewImage
+                         alt="img"
+                         style="max-height: 500px; object-fit:cover;" />
+
+                    <img class="img-fluid"
+                         src=@Model.SecondaryImage1
+                         alt="img"
+                         style="max-height: 200px; object-fit:cover;" />
+
+                    <img class="img-fluid"
+                         src=@Model.SecondaryImage2
+                         alt="img"
+                         style="max-height: 200px; object-fit:cover;" />
+                </div>
+
                 <div>
                     <h5 class="card-title">@Model.NameProduct</h5>
                     <p class="card-text">@Model.PriceProduct €</p>
+                    <p class="card-text">@Model.Description</p>
                 </div>
             </div>
+                
         </div>
+            
     </div>
 </div>
   

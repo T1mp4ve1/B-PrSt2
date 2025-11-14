@@ -4,7 +4,7 @@ namespace Vetrina.Models
 {
     public class DataVetrina
     {
-        private static string filePath = "Products.json";
+        private static string filePath = "ProductsNew.json";
         public static List<ProductType> Products = LoadProducts();
 
         //SAVE
